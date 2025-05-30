@@ -1,0 +1,11 @@
+2025-05-29 23:28:27,038 [INFO] Se recibió una solicitud
+2025-05-29 23:28:27,948 [INFO] Finalizo la solicitud
+2025-05-30 08:17:26,991 [INFO] Se recibió una solicitud
+2025-05-30 08:17:27,554 [WARNING] La API externa retorno error: {"message":"Unknown sport","error_code":"UNKNOWN_SPORT","details_url":"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#unknown-sport"}
+
+2025-05-30 08:18:16,023 [INFO] Se recibió una solicitud
+2025-05-30 08:21:01,343 [INFO] Se recibió una solicitud
+2025-05-30 08:23:27,592 [INFO] Se recibió una solicitud
+2025-05-30 08:23:28,113 [WARNING] La API externa retorno error: UNKNOWN_SPORT
+2025-05-30 08:30:03,573 [INFO] Se recibió una solicitud
+2025-05-30 08:30:04,102 [INFO] Finalizo la solicitud
