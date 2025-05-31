@@ -1,7 +1,7 @@
 from flask import jsonify
 
 
-def response_error(codigo, descripcion, http_status=500):
+def response_error(codigo, descripcion, http_status):
     error_body = {
         "codigo": str(codigo),
         "descripcion": descripcion
