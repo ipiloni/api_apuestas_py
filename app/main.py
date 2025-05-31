@@ -1,10 +1,15 @@
 from flask import Flask, request
 from apis.oddsAPI import obtenerApuestasDe, obtenerFutbol
+from app.apis.elevenLabs import llamarALaIA
 from logger import get_logger
 
 logger = get_logger(__name__)
 
 app = Flask(__name__)
+
+@app.route('/hablarConLaIA', methods=['GET'])
+def ia():
+    return llamarALaIA()
 
 @app.route('/futbol', methods=['GET'])
 def servicios():
